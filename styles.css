@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+img {
+    width: 74px;
+    margin-bottom: -1%
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#problemas p {
+    display: inline-block;
+    color: rgb(29, 161, 242);
+}
+
+form div {
+    background-color: #f5f8fa;
+}
+
+.log {
+    /* background-color: #f5f8fa; */
+    width: 55%;
+    max-width: 544px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+label {
+    text-align: left;
+    display: block;
+    margin-top: 3%;
+    padding: 1.5%;
+    font-size: 90%;
+}
+
+
+input {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    /* display: block; */
+    background-color: #f5f8fa;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input:focus {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: rgb(29, 161, 242);
+    border-bottom-width: 100%;
+    outline-style: none;
+    background-color: #f5f8fa;
+} 
+
+.log div:focus-within {
+    color: rgb(29, 161, 242);
+}
+
+h3 {
+    font-size: 130%;
+}
+
+#botao {
+    width: 55%;
+    max-width: 544px;
+    background-color: rgba(29, 161, 242, 0.5);
+    margin-top: 2%;
+    height: 7vh;
+    border: none;
+    color: white;
+    border-radius: 5% / 50%;
+    font-weight: bolder;
+    font-size: 102%;
+    
+}
